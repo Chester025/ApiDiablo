@@ -1,5 +1,5 @@
-{
-  "bosses": [
+
+ [
     {
       "nombre": "Diablo",
       "titulo": "Señor del Terror",
@@ -176,4 +176,3 @@
       "juego": "Diablo IV"
     }
   ]
-}
