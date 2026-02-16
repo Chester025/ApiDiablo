@@ -1,178 +1,202 @@
-
- [
-    {
-      "nombre": "Diablo",
-      "titulo": "Señor del Terror",
-      "tipo": "Demonio Mayor",
-      "vida_base": "150,000,000",
-      "juego": "Diablo I, II, III"
-    },
-    {
-      "nombre": "Baal",
-      "titulo": "Señor de la Destrucción",
-      "tipo": "Demonio Mayor",
-      "vida_base": "180,000,000",
-      "juego": "Diablo II"
-    },
-    {
-      "nombre": "Mephisto",
-      "titulo": "Señor del Odio",
-      "tipo": "Demonio Mayor",
-      "vida_base": "120,000,000",
-      "juego": "Diablo II, IV"
-    },
-    {
-      "nombre": "Lilith",
-      "titulo": "Madre de Santuario",
-      "tipo": "Demonio",
-      "vida_base": "100,000,000,000",
-      "juego": "Diablo II, IV"
-    },
-    {
-      "nombre": "Inarius",
-      "titulo": "Padre de Santuario",
-      "tipo": "Ángel",
-      "vida_base": "90,000,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Duriel",
-      "titulo": "Señor del Dolor",
-      "tipo": "Demonio Menor",
-      "vida_base": "85,000,000",
-      "juego": "Diablo II, IV"
-    },
-    {
-      "nombre": "Andariel",
-      "titulo": "Doncella de la Angustia",
-      "tipo": "Demonio Menor",
-      "vida_base": "70,000,000",
-      "juego": "Diablo II, IV"
-    },
-    {
-      "nombre": "Belial",
-      "titulo": "Señor de la Mentira",
-      "tipo": "Demonio Menor",
-      "vida_base": "95,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Azmodan",
-      "titulo": "Señor del Pecado",
-      "tipo": "Demonio Menor",
-      "vida_base": "110,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Malthael",
-      "titulo": "Ángel de la Muerte",
-      "tipo": "Ángel / Segador",
-      "vida_base": "250,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Leoric",
-      "titulo": "El Rey Esqueleto",
-      "tipo": "Muerto Viviente",
-      "vida_base": "15,000,000",
-      "juego": "Diablo I, III"
-    },
-    {
-      "nombre": "The Butcher",
-      "titulo": "El Carnicero",
-      "tipo": "Demonio",
-      "vida_base": "25,000,000",
-      "juego": "Diablo I, III, IV"
-    },
-    {
-      "nombre": "Astaroth",
-      "titulo": "Duque del Infierno",
-      "tipo": "Demonio",
-      "vida_base": "60,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Elias",
-      "titulo": "El Caído",
-      "tipo": "Humano / No-muerto",
-      "vida_base": "45,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Maghda",
-      "titulo": "Líder del Aquelarre",
-      "tipo": "Humano",
-      "vida_base": "30,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Adria",
-      "titulo": "La Bruja",
-      "tipo": "Híbrido Demonio",
-      "vida_base": "80,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Izual",
-      "titulo": "El Ángel Caído",
-      "tipo": "Demonio",
-      "vida_base": "55,000,000",
-      "juego": "Diablo II, III"
-    },
-    {
-      "nombre": "Zoltun Kulle",
-      "titulo": "Mago Renegado",
-      "tipo": "Humano / Fantasma",
-      "vida_base": "35,000,000",
-      "juego": "Diablo III"
-    },
-    {
-      "nombre": "Ashava",
-      "titulo": "La Pestilente",
-      "tipo": "Demonio / Jefe de Mundo",
-      "vida_base": "500,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Avarice",
-      "titulo": "El Maldito por el Oro",
-      "tipo": "Demonio / Jefe de Mundo",
-      "vida_base": "450,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Wandering Death",
-      "titulo": "Muerte Errante",
-      "tipo": "Muerto Viviente / Jefe de Mundo",
-      "vida_base": "480,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Archbishop Lazarus",
-      "titulo": "Arzobispo",
-      "tipo": "Humano / Corrupto",
-      "vida_base": "10,000,000",
-      "juego": "Diablo I"
-    },
-    {
-      "nombre": "The Ancients",
-      "titulo": "Guardianes del Arreat",
-      "tipo": "Espíritu",
-      "vida_base": "40,000,000",
-      "juego": "Diablo II"
-    },
-    {
-      "nombre": "Lord Zir",
-      "titulo": "El Ancestro Vampiro",
-      "tipo": "Vampiro / Demonio",
-      "vida_base": "120,000,000",
-      "juego": "Diablo IV"
-    },
-    {
-      "nombre": "Varshan",
-      "titulo": "El Consumido",
-      "tipo": "Abominación",
-      "vida_base": "80,000,000",
-      "juego": "Diablo IV"
-    }
-  ]
+[
+  {
+    "id": 1,
+    "nombre": "Diablo",
+    "titulo": "Señor del Terror",
+    "tipo": "Demonio Mayor",
+    "vida_base": "150,000,000",
+    "juego": "Diablo I, II, III"
+  },
+  {
+    "id": 2,
+    "nombre": "Baal",
+    "titulo": "Señor de la Destrucción",
+    "tipo": "Demonio Mayor",
+    "vida_base": "180,000,000",
+    "juego": "Diablo II"
+  },
+  {
+    "id": 3,
+    "nombre": "Mephisto",
+    "titulo": "Señor del Odio",
+    "tipo": "Demonio Mayor",
+    "vida_base": "120,000,000",
+    "juego": "Diablo II, IV"
+  },
+  {
+    "id": 4,
+    "nombre": "Lilith",
+    "titulo": "Madre de Santuario",
+    "tipo": "Demonio",
+    "vida_base": "100,000,000,000",
+    "juego": "Diablo II, IV"
+  },
+  {
+    "id": 5,
+    "nombre": "Inarius",
+    "titulo": "Padre de Santuario",
+    "tipo": "Ángel",
+    "vida_base": "90,000,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 6,
+    "nombre": "Duriel",
+    "titulo": "Señor del Dolor",
+    "tipo": "Demonio Menor",
+    "vida_base": "85,000,000",
+    "juego": "Diablo II, IV"
+  },
+  {
+    "id": 7,
+    "nombre": "Andariel",
+    "titulo": "Doncella de la Angustia",
+    "tipo": "Demonio Menor",
+    "vida_base": "70,000,000",
+    "juego": "Diablo II, IV"
+  },
+  {
+    "id": 8,
+    "nombre": "Belial",
+    "titulo": "Señor de la Mentira",
+    "tipo": "Demonio Menor",
+    "vida_base": "95,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 9,
+    "nombre": "Azmodan",
+    "titulo": "Señor del Pecado",
+    "tipo": "Demonio Menor",
+    "vida_base": "110,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 10,
+    "nombre": "Malthael",
+    "titulo": "Ángel de la Muerte",
+    "tipo": "Ángel / Segador",
+    "vida_base": "250,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 11,
+    "nombre": "Leoric",
+    "titulo": "El Rey Esqueleto",
+    "tipo": "Muerto Viviente",
+    "vida_base": "15,000,000",
+    "juego": "Diablo I, III"
+  },
+  {
+    "id": 12,
+    "nombre": "The Butcher",
+    "titulo": "El Carnicero",
+    "tipo": "Demonio",
+    "vida_base": "25,000,000",
+    "juego": "Diablo I, III, IV"
+  },
+  {
+    "id": 13,
+    "nombre": "Astaroth",
+    "titulo": "Duque del Infierno",
+    "tipo": "Demonio",
+    "vida_base": "60,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 14,
+    "nombre": "Elias",
+    "titulo": "El Caído",
+    "tipo": "Humano / No-muerto",
+    "vida_base": "45,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 15,
+    "nombre": "Maghda",
+    "titulo": "Líder del Aquelarre",
+    "tipo": "Humano",
+    "vida_base": "30,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 16,
+    "nombre": "Adria",
+    "titulo": "La Bruja",
+    "tipo": "Híbrido Demonio",
+    "vida_base": "80,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 17,
+    "nombre": "Izual",
+    "titulo": "El Ángel Caído",
+    "tipo": "Demonio",
+    "vida_base": "55,000,000",
+    "juego": "Diablo II, III"
+  },
+  {
+    "id": 18,
+    "nombre": "Zoltun Kulle",
+    "titulo": "Mago Renegado",
+    "tipo": "Humano / Fantasma",
+    "vida_base": "35,000,000",
+    "juego": "Diablo III"
+  },
+  {
+    "id": 19,
+    "nombre": "Ashava",
+    "titulo": "La Pestilente",
+    "tipo": "Demonio / Jefe de Mundo",
+    "vida_base": "500,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 20,
+    "nombre": "Avarice",
+    "titulo": "El Maldito por el Oro",
+    "tipo": "Demonio / Jefe de Mundo",
+    "vida_base": "450,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 21,
+    "nombre": "Wandering Death",
+    "titulo": "Muerte Errante",
+    "tipo": "Muerto Viviente / Jefe de Mundo",
+    "vida_base": "480,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 22,
+    "nombre": "Archbishop Lazarus",
+    "titulo": "Arzobispo",
+    "tipo": "Humano / Corrupto",
+    "vida_base": "10,000,000",
+    "juego": "Diablo I"
+  },
+  {
+    "id": 23,
+    "nombre": "The Ancients",
+    "titulo": "Guardianes del Arreat",
+    "tipo": "Espíritu",
+    "vida_base": "40,000,000",
+    "juego": "Diablo II"
+  },
+  {
+    "id": 24,
+    "nombre": "Lord Zir",
+    "titulo": "El Ancestro Vampiro",
+    "tipo": "Vampiro / Demonio",
+    "vida_base": "120,000,000",
+    "juego": "Diablo IV"
+  },
+  {
+    "id": 25,
+    "nombre": "Varshan",
+    "titulo": "El Consumido",
+    "tipo": "Abominación",
+    "vida_base": "80,000,000",
+    "juego": "Diablo IV"
+  }
+]
