@@ -3,16 +3,14 @@ services:
     image: caddy
     ports:
       - "80:80"
-      - "443:433"
+      - "443:443"
     volumes:
       - ./Caddyfile:/etc/caddy
     networks:
-      - caddy_network
-
+      - caddy_net
   website:
     image: ifc31c-iaw-yeste-toni
     networks:
-      - caddy_network
-
+      - caddy_net
 networks:
-  caddy_network:
+  caddy_net:
