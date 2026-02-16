@@ -7,12 +7,12 @@ services:
     volumes:
       - ./Caddyfile:/etc/caddy
     networks:
-      - apired
+      - caddy-network
 
   website:
     image: ifc31c-iaw-yeste-toni
     networks:
-      - apired
+      -caddy-network
 
 networks:
-  apired:
+  caddy-network:
