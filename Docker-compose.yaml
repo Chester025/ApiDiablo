@@ -12,7 +12,7 @@ services:
   website:
     image: ifc31c-iaw-yeste-toni
     networks:
-      -caddy-network
+      - caddy-network
 
 networks:
   caddy-network:
