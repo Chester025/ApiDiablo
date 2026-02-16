@@ -5,9 +5,9 @@ services:
       - "80:80"
       - "443:433"
     volumes:
-      - ./Caddifile:/etc/caddy
+      - ./Caddyfile:/etc/caddy
     networks:
-      - caddy-network
+      - apired
 
   website:
     image: ifc31c-iaw-yeste-toni
@@ -15,4 +15,4 @@ services:
       - apired
 
 networks:
-  caddy-network:
+  apired:
