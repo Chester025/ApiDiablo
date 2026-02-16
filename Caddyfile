@@ -1,0 +1,3 @@
+apidiablo.servehttp.com {
+    reverse_proxy contenedor-api:3000
+}
